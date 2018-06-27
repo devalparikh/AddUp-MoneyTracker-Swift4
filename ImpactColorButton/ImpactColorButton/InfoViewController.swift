@@ -29,6 +29,9 @@ class InfoViewController: UIViewController {
     }
     
     @IBAction func ResetButtonAction(_ sender: Any) {
+        GlobalVars.AmountRemaining = "0.00"
+        defaults.set(GlobalVars.AmountRemaining, forKey: "key")
+        NameLabel.text = defaults.string(forKey: "key")
     }
     
     /*

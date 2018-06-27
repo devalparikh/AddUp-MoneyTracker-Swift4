@@ -32,9 +32,15 @@ class SubPopUpViewController: UIViewController {
     }
     
     @IBAction func SubButtonAction(_ sender: Any) {
-        self.SubAmount = SubAmountTextField.text!
-        GlobalVars.AmountRemaining = String(Double(GlobalVars.AmountRemaining)! - Double(self.RawSubAmount)!)
-        defaults.set(GlobalVars.AmountRemaining, forKey: "key")
+        
+        if (self.RawSubAmount == ""){
+            
+        } else {
+            GlobalVars.AmountRemaining = String(Double(GlobalVars.AmountRemaining)! - Double(self.RawSubAmount)!)
+            defaults.set(GlobalVars.AmountRemaining, forKey: "key")
+        }
+        
+//        self.SubAmount = SubAmountTextField.text!
 //        performSegue(withIdentifier: "SubToMain", sender: self)
         dismiss(animated: true)
     }
