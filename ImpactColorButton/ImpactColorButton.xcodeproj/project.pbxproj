@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E6563220E2F4000084C45F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6563120E2F4000084C45F /* AppDelegate.swift */; };
+		D7E6563420E2F4000084C45F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6563320E2F4000084C45F /* ViewController.swift */; };
+		D7E6563720E2F4000084C45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6563520E2F4000084C45F /* Main.storyboard */; };
+		D7E6563A20E2F4000084C45F /* ImpactColorButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7E6563820E2F4000084C45F /* ImpactColorButton.xcdatamodeld */; };
+		D7E6563C20E2F4020084C45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E6563B20E2F4020084C45F /* Assets.xcassets */; };
+		D7E6563F20E2F4020084C45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6563D20E2F4020084C45F /* LaunchScreen.storyboard */; };
+		D7E6564A20E2F4020084C45F /* ImpactColorButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6564920E2F4020084C45F /* ImpactColorButtonTests.swift */; };
+		D7E6565520E2F4020084C45F /* ImpactColorButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6565420E2F4020084C45F /* ImpactColorButtonUITests.swift */; };
+		D7E6566320E2F4520084C45F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566220E2F4520084C45F /* DesignableView.swift */; };
+		D7E6566520E3037B0084C45F /* UpdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566420E3037B0084C45F /* UpdateTableViewCell.swift */; };
+		D7E6566720E303AD0084C45F /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566620E303AD0084C45F /* UpdateViewController.swift */; };
+		D7E6566920E30E0B0084C45F /* AddPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566820E30E0B0084C45F /* AddPopUpViewController.swift */; };
+		D7E6566B20E30E1F0084C45F /* SubPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566A20E30E1F0084C45F /* SubPopUpViewController.swift */; };
+		D7E6566D20E318CD0084C45F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6566C20E318CD0084C45F /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E6564620E2F4020084C45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E6562620E2F4000084C45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E6562D20E2F4000084C45F;
+			remoteInfo = ImpactColorButton;
+		};
+		D7E6565120E2F4020084C45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E6562620E2F4000084C45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E6562D20E2F4000084C45F;
+			remoteInfo = ImpactColorButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E6562E20E2F4000084C45F /* ImpactColorButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactColorButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E6563120E2F4000084C45F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E6563320E2F4000084C45F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7E6563620E2F4000084C45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E6563920E2F4000084C45F /* ImpactColorButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImpactColorButton.xcdatamodel; sourceTree = "<group>"; };
+		D7E6563B20E2F4020084C45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E6563E20E2F4020084C45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E6564020E2F4020084C45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E6564520E2F4020084C45F /* ImpactColorButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpactColorButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E6564920E2F4020084C45F /* ImpactColorButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactColorButtonTests.swift; sourceTree = "<group>"; };
+		D7E6564B20E2F4020084C45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E6565020E2F4020084C45F /* ImpactColorButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpactColorButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E6565420E2F4020084C45F /* ImpactColorButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactColorButtonUITests.swift; sourceTree = "<group>"; };
+		D7E6565620E2F4020084C45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E6566220E2F4520084C45F /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D7E6566420E3037B0084C45F /* UpdateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTableViewCell.swift; sourceTree = "<group>"; };
+		D7E6566620E303AD0084C45F /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		D7E6566820E30E0B0084C45F /* AddPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPopUpViewController.swift; sourceTree = "<group>"; };
+		D7E6566A20E30E1F0084C45F /* SubPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPopUpViewController.swift; sourceTree = "<group>"; };
+		D7E6566C20E318CD0084C45F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E6562B20E2F4000084C45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564220E2F4020084C45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564D20E2F4020084C45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E6562520E2F4000084C45F = {
+			isa = PBXGroup;
+			children = (
+				D7E6563020E2F4000084C45F /* ImpactColorButton */,
+				D7E6564820E2F4020084C45F /* ImpactColorButtonTests */,
+				D7E6565320E2F4020084C45F /* ImpactColorButtonUITests */,
+				D7E6562F20E2F4000084C45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E6562F20E2F4000084C45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6562E20E2F4000084C45F /* ImpactColorButton.app */,
+				D7E6564520E2F4020084C45F /* ImpactColorButtonTests.xctest */,
+				D7E6565020E2F4020084C45F /* ImpactColorButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E6563020E2F4000084C45F /* ImpactColorButton */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6563120E2F4000084C45F /* AppDelegate.swift */,
+				D7E6563320E2F4000084C45F /* ViewController.swift */,
+				D7E6566820E30E0B0084C45F /* AddPopUpViewController.swift */,
+				D7E6566A20E30E1F0084C45F /* SubPopUpViewController.swift */,
+				D7E6566C20E318CD0084C45F /* InfoViewController.swift */,
+				D7E6566620E303AD0084C45F /* UpdateViewController.swift */,
+				D7E6566220E2F4520084C45F /* DesignableView.swift */,
+				D7E6563520E2F4000084C45F /* Main.storyboard */,
+				D7E6566420E3037B0084C45F /* UpdateTableViewCell.swift */,
+				D7E6563B20E2F4020084C45F /* Assets.xcassets */,
+				D7E6563D20E2F4020084C45F /* LaunchScreen.storyboard */,
+				D7E6564020E2F4020084C45F /* Info.plist */,
+				D7E6563820E2F4000084C45F /* ImpactColorButton.xcdatamodeld */,
+			);
+			path = ImpactColorButton;
+			sourceTree = "<group>";
+		};
+		D7E6564820E2F4020084C45F /* ImpactColorButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6564920E2F4020084C45F /* ImpactColorButtonTests.swift */,
+				D7E6564B20E2F4020084C45F /* Info.plist */,
+			);
+			path = ImpactColorButtonTests;
+			sourceTree = "<group>";
+		};
+		D7E6565320E2F4020084C45F /* ImpactColorButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6565420E2F4020084C45F /* ImpactColorButtonUITests.swift */,
+				D7E6565620E2F4020084C45F /* Info.plist */,
+			);
+			path = ImpactColorButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E6562D20E2F4000084C45F /* ImpactColorButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E6565920E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButton" */;
+			buildPhases = (
+				D7E6562A20E2F4000084C45F /* Sources */,
+				D7E6562B20E2F4000084C45F /* Frameworks */,
+				D7E6562C20E2F4000084C45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImpactColorButton;
+			productName = ImpactColorButton;
+			productReference = D7E6562E20E2F4000084C45F /* ImpactColorButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E6564420E2F4020084C45F /* ImpactColorButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E6565C20E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButtonTests" */;
+			buildPhases = (
+				D7E6564120E2F4020084C45F /* Sources */,
+				D7E6564220E2F4020084C45F /* Frameworks */,
+				D7E6564320E2F4020084C45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E6564720E2F4020084C45F /* PBXTargetDependency */,
+			);
+			name = ImpactColorButtonTests;
+			productName = ImpactColorButtonTests;
+			productReference = D7E6564520E2F4020084C45F /* ImpactColorButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7E6564F20E2F4020084C45F /* ImpactColorButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E6565F20E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButtonUITests" */;
+			buildPhases = (
+				D7E6564C20E2F4020084C45F /* Sources */,
+				D7E6564D20E2F4020084C45F /* Frameworks */,
+				D7E6564E20E2F4020084C45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E6565220E2F4020084C45F /* PBXTargetDependency */,
+			);
+			name = ImpactColorButtonUITests;
+			productName = ImpactColorButtonUITests;
+			productReference = D7E6565020E2F4020084C45F /* ImpactColorButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E6562620E2F4000084C45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Deval Parikh";
+				TargetAttributes = {
+					D7E6562D20E2F4000084C45F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					D7E6564420E2F4020084C45F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D7E6562D20E2F4000084C45F;
+					};
+					D7E6564F20E2F4020084C45F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D7E6562D20E2F4000084C45F;
+					};
+				};
+			};
+			buildConfigurationList = D7E6562920E2F4000084C45F /* Build configuration list for PBXProject "ImpactColorButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E6562520E2F4000084C45F;
+			productRefGroup = D7E6562F20E2F4000084C45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E6562D20E2F4000084C45F /* ImpactColorButton */,
+				D7E6564420E2F4020084C45F /* ImpactColorButtonTests */,
+				D7E6564F20E2F4020084C45F /* ImpactColorButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E6562C20E2F4000084C45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E6563F20E2F4020084C45F /* LaunchScreen.storyboard in Resources */,
+				D7E6563C20E2F4020084C45F /* Assets.xcassets in Resources */,
+				D7E6563720E2F4000084C45F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564320E2F4020084C45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564E20E2F4020084C45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E6562A20E2F4000084C45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E6566320E2F4520084C45F /* DesignableView.swift in Sources */,
+				D7E6566520E3037B0084C45F /* UpdateTableViewCell.swift in Sources */,
+				D7E6563420E2F4000084C45F /* ViewController.swift in Sources */,
+				D7E6563A20E2F4000084C45F /* ImpactColorButton.xcdatamodeld in Sources */,
+				D7E6566D20E318CD0084C45F /* InfoViewController.swift in Sources */,
+				D7E6566B20E30E1F0084C45F /* SubPopUpViewController.swift in Sources */,
+				D7E6563220E2F4000084C45F /* AppDelegate.swift in Sources */,
+				D7E6566720E303AD0084C45F /* UpdateViewController.swift in Sources */,
+				D7E6566920E30E0B0084C45F /* AddPopUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564120E2F4020084C45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E6564A20E2F4020084C45F /* ImpactColorButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6564C20E2F4020084C45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E6565520E2F4020084C45F /* ImpactColorButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E6564720E2F4020084C45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E6562D20E2F4000084C45F /* ImpactColorButton */;
+			targetProxy = D7E6564620E2F4020084C45F /* PBXContainerItemProxy */;
+		};
+		D7E6565220E2F4020084C45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E6562D20E2F4000084C45F /* ImpactColorButton */;
+			targetProxy = D7E6565120E2F4020084C45F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E6563520E2F4000084C45F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E6563620E2F4000084C45F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E6563D20E2F4020084C45F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E6563E20E2F4020084C45F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E6565720E2F4020084C45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7E6565820E2F4020084C45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E6565A20E2F4020084C45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E6565B20E2F4020084C45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7E6565D20E2F4020084C45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpactColorButton.app/ImpactColorButton";
+			};
+			name = Debug;
+		};
+		D7E6565E20E2F4020084C45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpactColorButton.app/ImpactColorButton";
+			};
+			name = Release;
+		};
+		D7E6566020E2F4020084C45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImpactColorButton;
+			};
+			name = Debug;
+		};
+		D7E6566120E2F4020084C45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = ImpactColorButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.ImpactColorButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImpactColorButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E6562920E2F4000084C45F /* Build configuration list for PBXProject "ImpactColorButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E6565720E2F4020084C45F /* Debug */,
+				D7E6565820E2F4020084C45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E6565920E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E6565A20E2F4020084C45F /* Debug */,
+				D7E6565B20E2F4020084C45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E6565C20E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E6565D20E2F4020084C45F /* Debug */,
+				D7E6565E20E2F4020084C45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E6565F20E2F4020084C45F /* Build configuration list for PBXNativeTarget "ImpactColorButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E6566020E2F4020084C45F /* Debug */,
+				D7E6566120E2F4020084C45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7E6563820E2F4000084C45F /* ImpactColorButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7E6563920E2F4000084C45F /* ImpactColorButton.xcdatamodel */,
+			);
+			currentVersion = D7E6563920E2F4000084C45F /* ImpactColorButton.xcdatamodel */;
+			path = ImpactColorButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7E6562620E2F4000084C45F /* Project object */;
+}
