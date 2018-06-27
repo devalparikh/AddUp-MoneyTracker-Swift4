@@ -703,6 +703,9 @@
                                         <size key="value" width="0.0" height="6"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ResetButtonAction:" destination="AMN-JK-01n" eventType="touchUpInside" id="ijr-rV-ffQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

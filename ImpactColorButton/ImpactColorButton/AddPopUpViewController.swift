@@ -40,6 +40,7 @@ class AddPopUpViewController: UIViewController {
             
         } else {
             GlobalVars.AmountRemaining = String(Double(GlobalVars.AmountRemaining)! + Double(self.RawAddAmount)!)
+            defaults.set(GlobalVars.AmountRemaining, forKey: "key")
         }
 //        self.AddAmount = AddTextField.text!
 //        performSegue(withIdentifier: "AddToMain", sender: self)
