@@ -8,19 +8,34 @@
 
 import UIKit
 
-
+func isAppAlreadyLaunchedOnce()->Bool{
+    let defaults = UserDefaults.standard
+    if let _ = defaults.string(forKey: "isAppAlreadyLaunchedOnce"){
+        print("App already launched")
+        return true
+    }else{
+        defaults.set(true, forKey: "isAppAlreadyLaunchedOnce")
+        return false
+    }
+}
 
 struct GlobalVars {
     //User defualt saves and loops back to InfoViewController.swift
-    static var AmountRemaining = defaults.string(forKey: "key") as! String
+    static var AmountRemaining = defaults.string(forKey: "key") as? String ?? "0.00"
 }
 
 class ViewController: UIViewController {
+    
     
     @IBOutlet weak var UpdateButton: DesignableButton!
     @IBOutlet weak var AmountLabel: UILabel!
     
     override func viewDidLoad() {
+        if isAppAlreadyLaunchedOnce() == false {
+            print("App Launched first")
+        } else {
+            print("App Launched never")
+        }
         super.viewDidLoad()
         defaults.set(GlobalVars.AmountRemaining, forKey: "key")
         let currencyFormatter = NumberFormatter()
